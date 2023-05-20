@@ -5,11 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style> 
+        ul {
+          list-style-type: none;
+          display:grid;
+          grid-template-columns: auto auto auto;
+          padding: 12px;
+        }
+
+        li {
+           text-align: center;
+        }
+     </style>
 </head>
 <body>
     <h3>Welcome to the Products Page</h3>
-    <b>ABC Shoe</b>
-    <br>
-    <img src="./images/shoes101.jpg" alt="ABC Shoe">
+
+    <ul>
+        <li>
+            <b>ABC Shoe</b>
+            <br>
+            <img src="./images/shoes101.jpg" alt="ABC Shoe" width="200px" heigth="200px">
+            <br>
+            <p>This is a description of the product</p>
+            <a href="productDetail.html">Add to Cart</a>
+        </li>
+        <li>
+            <b>XYZ Shoe</b>
+            <br>
+            <img src="./images/shoes102.jpg" alt="XYZ Shoe" width="200px" heigth="200px">
+            <br>
+            <p>This is a description of the product</p>
+            <a href="#">Add to Cart</a>
+        </li>
+        <li>
+            <b>PQR Shoe</b>
+            <br>
+            <img src="./images/shoes103.jpg" alt="PQR Shoe" width="200px" heigth="200px">
+            <br>
+            <p>This is a description of the product</p>
+            <a href="#">Add to Cart</a>
+        </li>
+        <li>
+            <b>MNO Shoe</b>
+            <br>
+            <video width="320px" height="240px" controls>
+                <source src="./videos/shoe104.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br>
+            <p>This is a description of the product</p>
+            <a href="#">Add to Cart</a>
+        </li>
+    </ul>
+
 </body>
 </html>
