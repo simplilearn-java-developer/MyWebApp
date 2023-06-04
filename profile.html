@@ -15,11 +15,16 @@
             margin-right: auto;
             padding: 12px;
             background: linear-gradient(120deg,#39ef74,#4600f1 100%);
+            animation: rotateCard 7s infinite;
+
         }
         img{
             width: 128px;
             height: 128px;
             border-radius: 50%;
+        }
+        @keyframes rotateCard{
+            50% {transform: rotate(360deg);}
         }
     </style>
 </head>
